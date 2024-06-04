@@ -60,7 +60,8 @@ Installing NerfBridge is a rather involved process because it requires using Ana
 
     # GSPLAT dependency (takes a while!)
     # Avoids building at runtime of first splatfacto training.
-    pip install git+https://github.com/nerfstudio-project/gsplat.git
+    # pip install git+https://github.com/nerfstudio-project/gsplat.git
+    pip install git+https://github.com/nerfstudio-project/gsplat.git@v0.1.6
     ```
 
 5. Clone, and install NerfBridge.
