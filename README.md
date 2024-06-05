@@ -62,6 +62,9 @@ Installing NerfBridge is a rather involved process because it requires using Ana
     # Avoids building at runtime of first splatfacto training.
     # pip install git+https://github.com/nerfstudio-project/gsplat.git
     pip install git+https://github.com/nerfstudio-project/gsplat.git@v0.1.6
+
+    # Make sure GLIBCXX_3.4.30 is secured in the conda env:
+    conda install -c conda-forge libstdcxx-ng=12
     ```
 
 5. Clone, and install NerfBridge.
