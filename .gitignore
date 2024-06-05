@@ -3,6 +3,7 @@ rosbags/
 outputs/
 configs/*
 !configs/desk.json
+test/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
